@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://artificialpoets.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/wp-llm-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -73,7 +73,7 @@ const config: Config = {
       title: 'WP LLM - Supercharge WordPress with AI',
       description: 'The ultimate AI tool for WordPress developers. Generate custom post types, Gutenberg blocks, REST APIs, and more with specialized WordPress knowledge.',
       image: {
-        url: '/wp-llm-docs/img/og-image.png',
+        url: '/img/og-image.png',
         width: 1200,
         height: 630,
         alt: 'WP LLM - Supercharge WordPress with AI',
@@ -87,7 +87,7 @@ const config: Config = {
       creator: '@artificialpoets',
       title: 'WP LLM - Supercharge WordPress with AI',
       description: 'The ultimate AI tool for WordPress developers. Generate custom post types, Gutenberg blocks, REST APIs, and more with specialized WordPress knowledge.',
-      image: '/wp-llm-docs/img/og-image.png',
+      image: '/img/og-image.png',
     },
     
     // Color mode configuration
