@@ -62,7 +62,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/og-image.png',
+    image: 'https://docs.wp-llm.com/img/og-image.png',
     
     // Open Graph and Twitter meta tags
     openGraph: {
@@ -73,7 +73,7 @@ const config: Config = {
       title: 'WP LLM - Supercharge WordPress with AI',
       description: 'The ultimate AI tool for WordPress developers. Generate custom post types, Gutenberg blocks, REST APIs, and more with specialized WordPress knowledge.',
       image: {
-        url: '/img/og-image.png',
+        url: 'https://docs.wp-llm.com/img/og-image.png',
         width: 1200,
         height: 630,
         alt: 'WP LLM - Supercharge WordPress with AI',
@@ -87,7 +87,7 @@ const config: Config = {
       creator: '@artificialpoets',
       title: 'WP LLM - Supercharge WordPress with AI',
       description: 'The ultimate AI tool for WordPress developers. Generate custom post types, Gutenberg blocks, REST APIs, and more with specialized WordPress knowledge.',
-      image: '/img/og-image.png',
+      image: 'https://docs.wp-llm.com/img/og-image.png',
     },
     
     // Color mode configuration
