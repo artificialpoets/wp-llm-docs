@@ -62,7 +62,33 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/wp-llm-social-card.jpg',
+    image: 'img/og-image.png',
+    
+    // Open Graph and Twitter meta tags
+    openGraph: {
+      type: 'website',
+      locale: 'en_US',
+      url: 'https://artificialpoets.github.io/wp-llm-docs/',
+      siteName: 'WP LLM Documentation',
+      title: 'WP LLM - Supercharge WordPress with AI',
+      description: 'The ultimate AI tool for WordPress developers. Generate custom post types, Gutenberg blocks, REST APIs, and more with specialized WordPress knowledge.',
+      image: {
+        url: '/wp-llm-docs/img/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'WP LLM - Supercharge WordPress with AI',
+      },
+    },
+
+    // Twitter meta tags
+    twitter: {
+      cardType: 'summary_large_image',
+      site: '@artificialpoets',
+      creator: '@artificialpoets',
+      title: 'WP LLM - Supercharge WordPress with AI',
+      description: 'The ultimate AI tool for WordPress developers. Generate custom post types, Gutenberg blocks, REST APIs, and more with specialized WordPress knowledge.',
+      image: '/wp-llm-docs/img/og-image.png',
+    },
     
     // Color mode configuration
     colorMode: {
