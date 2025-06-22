@@ -1,41 +1,125 @@
-# Website
+# WP LLM Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This is the official documentation site for WP LLM, a specialized AI tool for WordPress development. Built with Docusaurus, this site provides comprehensive documentation, tutorials, and resources for developers working with WordPress.
 
-## Installation
+## 🚀 Quick Start
 
-```bash
-yarn
+### Prerequisites
+
+- Node.js 20.x or higher
+- npm or yarn
+
+### Local Development
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server:**
+   ```bash
+   npm start
+   ```
+
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+4. **Serve the production build locally:**
+   ```bash
+   npm run serve
+   ```
+
+## 📚 Documentation Structure
+
+- **Getting Started** - Quick start guides and setup instructions
+- **Core Documentation** - API reference, capabilities, and concepts
+- **Integrations** - IDE integrations, CLI tools, and webhooks
+- **Advanced Usage** - Performance optimization, security best practices
+- **Enterprise** - Enterprise features and deployment guides
+- **Contributing** - How to contribute to the project
+
+## 🛠️ Development
+
+### Project Structure
+
+```
+docusaurus/
+├── docs/                    # Documentation markdown files
+├── src/
+│   ├── components/          # Custom React components
+│   ├── css/                # Custom styles
+│   ├── pages/              # Additional pages
+│   └── theme/              # Theme customizations
+├── static/                 # Static assets (images, etc.)
+├── docusaurus.config.ts    # Main configuration
+└── sidebars.ts            # Documentation sidebar structure
 ```
 
-## Local Development
+### Key Features
+
+- **Modern Documentation** - Built with Docusaurus v4
+- **Search Functionality** - Full-text search across all docs
+- **Dark/Light Mode** - Automatic theme switching
+- **Responsive Design** - Mobile-friendly interface
+- **SEO Optimized** - Built-in SEO features
+- **GitHub Integration** - Edit links and version control
+
+## 🚀 Deployment
+
+This site is automatically deployed to GitHub Pages via GitHub Actions. The deployment workflow:
+
+1. Builds the site on every push to `main`
+2. Deploys to GitHub Pages at `https://artificialpoets.github.io/wp-llm-docs/`
+
+### Manual Deployment
+
+If you need to deploy manually:
 
 ```bash
-yarn start
+npm run build
+# Upload the contents of the build/ directory to your hosting provider
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 🤝 Contributing
 
-## Build
+We welcome contributions! Please see our [Contributing Guide](docs/contributing/contributing-guide.md) for details.
 
-```bash
-yarn build
-```
+### Development Workflow
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test locally with `npm start`
+5. Submit a pull request
 
-## Deployment
+## 📖 Documentation Guidelines
 
-Using SSH:
+- Use clear, concise language
+- Include code examples where appropriate
+- Follow the established structure and formatting
+- Test all links and code snippets
+- Update the sidebar configuration when adding new pages
 
-```bash
-USE_SSH=true yarn deploy
-```
+## 🔧 Configuration
 
-Not using SSH:
+Key configuration files:
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+- `docusaurus.config.ts` - Main site configuration
+- `sidebars.ts` - Documentation navigation structure
+- `.github/workflows/deploy.yml` - GitHub Actions deployment workflow
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## 📞 Support
+
+- **Documentation Issues** - Open an issue in this repository
+- **WP LLM Support** - Visit [artificialpoets.com](https://www.artificialpoets.com)
+- **Community** - Join our Discord or GitHub discussions
+
+## 📄 License
+
+This documentation is licensed under the same terms as the WP LLM project.
+
+---
+
+Built with ❤️ by the WP LLM team
