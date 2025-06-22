@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://artificialpoets.github.io',
+  url: 'https://docs.wp-llm.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -68,7 +68,7 @@ const config: Config = {
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://artificialpoets.github.io/wp-llm-docs/',
+      url: 'https://docs.wp-llm.com/',
       siteName: 'WP LLM Documentation',
       title: 'WP LLM - Supercharge WordPress with AI',
       description: 'The ultimate AI tool for WordPress developers. Generate custom post types, Gutenberg blocks, REST APIs, and more with specialized WordPress knowledge.',

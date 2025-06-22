@@ -35,9 +35,9 @@ This is the official documentation site for WP LLM, a specialized AI tool for Wo
 
 - **Getting Started** - Quick start guides and setup instructions
 - **Core Documentation** - API reference, capabilities, and concepts
-- **Integrations** - IDE integrations, CLI tools, and webhooks
-- **Advanced Usage** - Performance optimization, security best practices
-- **Enterprise** - Enterprise features and deployment guides
+- **Advanced Usage** - Advanced features and customization
+- **Integrations** - IDE and tool integrations
+- **Enterprise** - Enterprise features and solutions
 - **Contributing** - How to contribute to the project
 
 ## 🛠️ Development
@@ -46,41 +46,40 @@ This is the official documentation site for WP LLM, a specialized AI tool for Wo
 
 ```
 docusaurus/
-├── docs/                    # Documentation markdown files
+├── docs/                 # Documentation markdown files
 ├── src/
-│   ├── components/          # Custom React components
-│   ├── css/                # Custom styles
-│   ├── pages/              # Additional pages
-│   └── theme/              # Theme customizations
-├── static/                 # Static assets (images, etc.)
-├── docusaurus.config.ts    # Main configuration
-└── sidebars.ts            # Documentation sidebar structure
+│   ├── pages/           # Static pages
+│   ├── components/      # Custom React components
+│   └── css/            # Custom styles
+├── static/             # Static assets (images, etc.)
+├── docusaurus.config.ts # Main configuration
+└── sidebars.ts         # Documentation sidebar configuration
 ```
 
 ### Key Features
 
-- **Modern Documentation** - Built with Docusaurus v4
+- **Modern Documentation** - Built with Docusaurus 3
 - **Search Functionality** - Full-text search across all docs
 - **Dark/Light Mode** - Automatic theme switching
-- **Responsive Design** - Mobile-friendly interface
-- **SEO Optimized** - Built-in SEO features
-- **GitHub Integration** - Edit links and version control
+- **Mobile Responsive** - Optimized for all devices
+- **SEO Optimized** - Open Graph and meta tags
+- **Performance** - Fast loading and optimized builds
 
 ## 🚀 Deployment
 
-This site is automatically deployed to GitHub Pages via GitHub Actions. The deployment workflow:
+### GitHub Pages (Automatic)
 
-1. Builds the site on every push to `main`
-2. Deploys to GitHub Pages at `https://artificialpoets.github.io/wp-llm-docs/`
+1. **GitHub Actions Workflow** - Automatically builds and deploys on push to main branch
+2. Deploys to custom domain at `https://docs.wp-llm.com`
 
 ### Manual Deployment
 
-If you need to deploy manually:
+1. **Build the site:**
+   ```bash
+   npm run build
+   ```
 
-```bash
-npm run build
-# Upload the contents of the build/ directory to your hosting provider
-```
+2. **Deploy to your preferred hosting service**
 
 ## 🤝 Contributing
 
@@ -94,31 +93,21 @@ We welcome contributions! Please see our [Contributing Guide](docs/contributing/
 4. Test locally with `npm start`
 5. Submit a pull request
 
-## 📖 Documentation Guidelines
-
-- Use clear, concise language
-- Include code examples where appropriate
-- Follow the established structure and formatting
-- Test all links and code snippets
-- Update the sidebar configuration when adding new pages
-
-## 🔧 Configuration
-
-Key configuration files:
-
-- `docusaurus.config.ts` - Main site configuration
-- `sidebars.ts` - Documentation navigation structure
-- `.github/workflows/deploy.yml` - GitHub Actions deployment workflow
-
-## 📞 Support
-
-- **Documentation Issues** - Open an issue in this repository
-- **WP LLM Support** - Visit [artificialpoets.com](https://www.artificialpoets.com)
-- **Community** - Join our Discord or GitHub discussions
-
 ## 📄 License
 
-This documentation is licensed under the same terms as the WP LLM project.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🆘 Support
+
+- **Documentation**: [docs.wp-llm.com](https://docs.wp-llm.com)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/artificialpoets/wp-llm-docs/issues)
+- **Community**: Join our discussions and get help
+
+## 🔗 Links
+
+- **Main Website**: [wp-llm.com](https://wp-llm.com)
+- **GitHub Repository**: [github.com/artificialpoets/wp-llm-docs](https://github.com/artificialpoets/wp-llm-docs)
+- **API Documentation**: [docs.wp-llm.com/api-reference](https://docs.wp-llm.com/api-reference)
 
 ---
 
